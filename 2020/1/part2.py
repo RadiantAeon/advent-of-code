@@ -1,6 +1,6 @@
 import sys
 # split the puzzle input by newline
-puzzle_input = open("input", "r").read().strip().split("\n")
+puzzle_input = open("input", "r").read().split("\n")
 # strip any remaining whitespace and turn each value into an int
 puzzle_input = [int(e.strip()) for e in puzzle_input]
 
